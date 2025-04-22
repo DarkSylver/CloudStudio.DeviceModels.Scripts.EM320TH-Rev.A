@@ -7,7 +7,6 @@ function parseUplink(device, payload) {
     var e = device.endpoints.byAddress("1");
     if (e != null) {
       e.updateGenericSensorStatus(decoded.battery);
-      device.updateDeviceBattery({ type: 2, percentage: decoded.battery });
     }
 
     var e = device.endpoints.byAddress("2");
