@@ -8,7 +8,7 @@ function getEndpoints(deviceAddress, endpoints) {
     "Battery Level",
     endpointType.genericSensor
   );
-  em.variableTypeId = 1076;
+  em.variableTypeId = 1026;
 
   endpoints.addEndpoint("2", "Temperature", endpointType.temperatureSensor);
 
