@@ -24,6 +24,7 @@ function parseUplink(device, payload) {
 }
 
 
+
 function milesightDeviceDecode(bytes) {
   var decoded = {};
 
